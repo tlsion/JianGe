@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="12F37" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Sysmessage" representedClassName="Sysmessage" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgTittle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userimages" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Sysmessage" positionX="0" positionY="0" width="128" height="195"/>
+    </elements>
+</model>

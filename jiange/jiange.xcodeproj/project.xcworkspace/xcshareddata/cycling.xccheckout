@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1D93FEDA-347B-4C87-A86E-7181F911ED7E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cycling</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>030A2B4D-826B-4069-AF23-8340717FDA84</key>
+		<string>https://192.168.0.110/svn/ios/Cycling</string>
+		<key>CB483A2A-5B3E-4C7C-A060-F6A6D63CEFCF</key>
+		<string>https://192.168.0.110/svn/ios/Cycling</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cycling.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>030A2B4D-826B-4069-AF23-8340717FDA84</key>
+		<string>../..</string>
+		<key>CB483A2A-5B3E-4C7C-A060-F6A6D63CEFCF</key>
+		<string>../../../cycling</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>030A2B4D-826B-4069-AF23-8340717FDA84</key>
+		<string>https://192.168.0.110/svn/ios</string>
+		<key>CB483A2A-5B3E-4C7C-A060-F6A6D63CEFCF</key>
+		<string>https://192.168.0.110/svn/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.0.110/svn/ios/Cycling/cycling.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>030A2B4D-826B-4069-AF23-8340717FDA84</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB483A2A-5B3E-4C7C-A060-F6A6D63CEFCF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cycling</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>030A2B4D-826B-4069-AF23-8340717FDA84</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cycling</string>
+		</dict>
+	</array>
+</dict>
+</plist>

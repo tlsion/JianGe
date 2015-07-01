@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BCLoginViewController">
+            <connections>
+                <outlet property="btnJia" destination="G8l-ct-aJm" id="FiL-y7-C5v"/>
+                <outlet property="btnJian" destination="KX9-pf-5H2" id="ZKQ-KC-13X"/>
+                <outlet property="lblDianyuan" destination="I9j-bU-srb" id="f8D-iN-eZT"/>
+                <outlet property="lblTitle" destination="Spe-q5-m4s" id="NiX-yW-Fny"/>
+                <outlet property="lblValue" destination="zS9-lB-CVo" id="1BQ-ST-1YA"/>
+                <outlet property="view" destination="iN0-l3-epB" id="anu-lf-qym"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_daoying.png" id="wPo-2g-aaf">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="m9L-Ta-BHW">
+                    <rect key="frame" x="115" y="455.00000116652831" width="90" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <state key="normal" image="dianyuan_normal.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="dianyuan_press.png"/>
+                    <connections>
+                        <action selector="powerAction:" destination="-1" eventType="touchUpInside" id="5Tf-UK-9Uk"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电源（关）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I9j-bU-srb">
+                    <rect key="frame" x="108" y="539" width="104" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="zuz-gi-mcd">
+                    <rect key="frame" x="0.0" y="70" width="320" height="142"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gongnengkuang.png" id="SaB-DM-Top">
+                            <rect key="frame" x="10" y="0.0" width="300" height="142"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KX9-pf-5H2">
+                            <rect key="frame" x="245" y="61" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="jian_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="jian_press.png"/>
+                            <connections>
+                                <action selector="jianAction:" destination="-1" eventType="touchUpInside" id="w9D-md-fsm"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="G8l-ct-aJm">
+                            <rect key="frame" x="28" y="61" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="jia_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="jia_press.png"/>
+                            <connections>
+                                <action selector="jiaAction:" destination="-1" eventType="touchUpInside" id="qdk-qm-fuW"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="模式" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Spe-q5-m4s">
+                            <rect key="frame" x="92" y="4" width="137" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.57647058823529407" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自动" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zS9-lB-CVo">
+                            <rect key="frame" x="86" y="42" width="151" height="77"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                            <color key="textColor" red="0.0" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="Lqx-Qb-vUY">
+                    <rect key="frame" x="0.0" y="230" width="320" height="223"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="smJ-h5-kju">
+                            <rect key="frame" x="25.5" y="1" width="132" height="112"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="qiangdu_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="qiangdu_press.png"/>
+                            <connections>
+                                <action selector="qiangduAction:" destination="-1" eventType="touchUpInside" id="Nih-Bd-x9z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kSl-mA-H5z">
+                            <rect key="frame" x="160" y="1" width="136" height="112"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dingshi_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="dingshi_press.png"/>
+                            <connections>
+                                <action selector="dingshiAction:" destination="-1" eventType="touchUpInside" id="vqN-8o-caH"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eoU-3b-5M0">
+                            <rect key="frame" x="27" y="113" width="131" height="110"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <state key="normal" image="reliao_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="reliao_press.png"/>
+                            <connections>
+                                <action selector="reliaoAction:" destination="-1" eventType="touchUpInside" id="D9p-Ya-qBm"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MrO-6T-CZn">
+                            <rect key="frame" x="160" y="113" width="134" height="110"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <state key="normal" image="guangliao_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="guangliao_press.png"/>
+                            <connections>
+                                <action selector="guangliaoAction:" destination="-1" eventType="touchUpInside" id="PHD-lm-g77"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4a0-H2-VpV">
+                            <rect key="frame" x="100" y="52" width="120" height="120"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="moshi_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="moshi_pree.png"/>
+                            <connections>
+                                <action selector="moshiAction:" destination="-1" eventType="touchUpInside" id="Twr-RC-QRP"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_daoying.png" width="1080" height="1920"/>
+        <image name="dianyuan_normal.png" width="252" height="252"/>
+        <image name="dianyuan_press.png" width="252" height="252"/>
+        <image name="dingshi_normal.png" width="432" height="362"/>
+        <image name="dingshi_press.png" width="432" height="362"/>
+        <image name="gongnengkuang.png" width="1017" height="548"/>
+        <image name="guangliao_normal.png" width="432" height="362"/>
+        <image name="guangliao_press.png" width="432" height="362"/>
+        <image name="jia_normal.png" width="210" height="209"/>
+        <image name="jia_press.png" width="210" height="209"/>
+        <image name="jian_normal.png" width="210" height="209"/>
+        <image name="jian_press.png" width="210" height="209"/>
+        <image name="moshi_normal.png" width="390" height="390"/>
+        <image name="moshi_pree.png" width="390" height="390"/>
+        <image name="qiangdu_normal.png" width="432" height="362"/>
+        <image name="qiangdu_press.png" width="432" height="362"/>
+        <image name="reliao_normal.png" width="432" height="362"/>
+        <image name="reliao_press.png" width="432" height="362"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
